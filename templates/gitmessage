@@ -1,0 +1,20 @@
+###############################################################################
+# HEADER - line length limit: 50 characters
+###############################################################################
+
+# Subject Line
+Subject:
+
+###############################################################################
+# BODY OF COMMIT MESSSAGE - line length limit: 72 characters
+###############################################################################
+
+# Reason For Committed Changes
+Reason:
+
+# What Changes Were Made?
+Changes made:
+
+# Notes (instructions, tests, examples, etc.)
+Notes:
+

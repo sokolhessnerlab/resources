@@ -97,19 +97,35 @@ git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'
 ```
 
-
 ### Committing Your Changes
 
 #### Configuring `~/.gitmessage`
 
 When committing changes to a repository, a commit message is **absolutely
-necessary**. It's also [good
+necessary**. It's [good
 practice](https://chris.beams.io/posts/git-commit/) to have a consistent set of messages
-regardless of who is writing the message.
+regardless of who is writing the message. Future you and future collaborators will
+thank you for adhering to this.
 
-The suggested commit message formate can be reliably enforced by pasting the
-below template into your `~/.gitmessage` file. (NOTE: you can do this by running `vim ~/.gitmessage` or
-your text editor of choice from the command line.)
+A reliable commit message format can be enforced by configuring
+a template for your local machine. Either of the two methods below can be used to add
+the template to your computer:
+
+Once the template is in `~/.gitmessage`, run the following global
+configuration command:
+
+```
+git config --global commit.template ~/.gitmessage
+```
+
+Going forward, your commits should follow this format, and Git will expect the
+template to be filled each time you run `git commit`.
+
+##### 1. Manually
+
+Select the text in the code block directly below into a `~/.gitmessage` file. You can do this by running `vim ~/.gitmessage` or
+your text editor of choice from the command line. After you've pasted the text,
+save and close the file.
 
 ```
 ###############################################################################
@@ -134,15 +150,9 @@ Notes:
 
 ```
 
-Once the above template is saved in `~/.gitmessage`, run the following global
-configuration command:
+##### 2. Semi-automatically
 
-```
-git config --global commit.template ~/.gitmessage
-```
-
-Going forward, your commits should follow this format, and Git will expect the
-template to be filled each time you run `git commit`.
+Navigate to the root of this project directory on your local machine. Then run `cp templates/gitmessage ~/.gitmessage`.
 
 <div id="git_tutorial"></div>
 
