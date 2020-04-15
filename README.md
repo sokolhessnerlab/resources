@@ -16,10 +16,12 @@
 - [R](#r)
 - [Python](#python)
 - [JavaScript](#javascript)
+- [MATLAB](#matlab)
 - [References](#references)
 
 
 <div id="git"></div>
+
 ## Git
 
 ### What is Git?
@@ -64,7 +66,9 @@ Otherwise, please follow the instructions for each operating system:
 
 #### On GitHub
 
-## R <div id="r"></div>
+<div id="r"></div>
+
+## R
 
 ### Installation
 
@@ -74,7 +78,9 @@ Otherwise, please follow the instructions for each operating system:
 
 ### R Packages
 
-## Python <div id="python"></div>
+<div id="python"></div>
+
+## Python
 
 ### Installation
 
@@ -82,9 +88,17 @@ Otherwise, please follow the instructions for each operating system:
 
 ### Jupyter Notebooks
 
-## JavaScript <div id="javascript"></div>
+<div id="javascript"></div>
 
-## References <div id="references"></div>
+## JavaScript
+
+<div id="matlab"></div>
+
+## MATLAB
+
+<div id="references"></div>
+
+## References 
 
 Please consider reviewing the following references to familiarize yourself
 further  with a given topic (i.e., Git).
