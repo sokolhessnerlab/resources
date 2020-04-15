@@ -17,6 +17,7 @@
   - [Installation](#git_install)
   - [Setup](#git_setup)
   - [Tutorial](#git_tutorial)
+  - [Useful Aliases](#git_aliases)
 - [R](#r)
 - [Python](#python)
 - [JavaScript](#javascript)
@@ -87,9 +88,30 @@ You'll need to replace `"First Last"` with your own name (i.e. `"Ari Dyckovsky"`
 
 Another configuration you might consider is that of he text editor Git will use by default. If not configured, the editor  will be your system's default text editor (i.e., `vim` or `emacs`).
 
+#### Commit Message Template
+
+When committing changes to a repository, a commit message is **absolutely
+necessary**. It's also [good
+practice](https://chris.beams.io/posts/git-commit/) to have a consistent set of messages
+regardless of who is writing the message. Thus, templates are very useful and
+recommended.
+
 <div id="git_tutorial"></div>
 
 ### (Quick) Tutorial
+
+<div id="git_aliases"></div>
+
+### Useful Aliases
+
+The following
+[aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases#_git_aliases) are not native to Git, but will make your life easier if
+you configure them. 
+
+```
+git config --global alias.unstage 'reset HEAD --'
+git config --global alias.last 'log -1 HEAD'
+```
 
 <div id="r"></div>
 
