@@ -19,7 +19,7 @@
 - [References](#references)
 
 
-## Git <a name="git"></a>
+## Git <div id="git"></div>
 
 ### What is Git?
 
@@ -63,7 +63,7 @@ Otherwise, please follow the instructions for each operating system:
 
 #### On GitHub
 
-## R <a name="r"></a>
+## R <div id="r"></div>
 
 ### Installation
 
@@ -73,7 +73,7 @@ Otherwise, please follow the instructions for each operating system:
 
 ### R Packages
 
-## Python <a name="python"></a>
+## Python <div id="python"></div>
 
 ### Installation
 
@@ -81,9 +81,9 @@ Otherwise, please follow the instructions for each operating system:
 
 ### Jupyter Notebooks
 
-## JavaScript <a name="javascript"></a>
+## JavaScript <div id="javascript"></div>
 
-## References <a name="references"></a>
+## References <div id="references"></div>
 
 Please consider reviewing the following references to familiarize yourself
 further  with a given topic (i.e., Git).
