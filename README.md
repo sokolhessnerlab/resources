@@ -13,6 +13,10 @@
 ### Table of Contents
 
 - [Git](#git)
+  - [What is Git?](#git_what_is)
+  - [Installation](#git_install)
+  - [Setup](#git_setup)
+  - [Tutorial](#git_tutorial)
 - [R](#r)
 - [Python](#python)
 - [JavaScript](#javascript)
@@ -23,6 +27,8 @@
 <div id="git"></div>
 
 ## Git
+
+<div id="git_what_is"></div>
 
 ### What is Git?
 
@@ -39,6 +45,8 @@ network..."
 - "...we know we can experiment without the danger of severely screwing things up..."
 - "Git has three main states that your files can reside in: modified, staged,
   and committed..."
+
+<div id="git_install"></div>
 
 ### Installation
 
@@ -60,11 +68,13 @@ Otherwise, please follow the instructions for each operating system:
 - [Git for Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_windows)
 - [Git for macOS](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_macos)
 
-### Quick Tutorial
+<div id="git_setup"></div>
 
-#### On your local machine
+### Setup
 
-#### On GitHub
+<div id="git_tutorial"></div>
+
+### (Quick) Tutorial
 
 <div id="r"></div>
 
