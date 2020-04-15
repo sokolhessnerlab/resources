@@ -12,11 +12,11 @@
 
 ### Table of Contents
 
-  [Git](#git)
-  [R](#r)
-  [Python](#python)
-  [JavaScript](#javascript)
-  [References](#references)
+- [Git](#git)
+- [R](#r)
+- [Python](#python)
+- [JavaScript](#javascript)
+- [References](#references)
 
 
 ## Git <a name="git"></a>
