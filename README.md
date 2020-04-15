@@ -1,8 +1,9 @@
 # Guides & References for Sokol-Hessner Lab
 
-### TODO items
+TODO Checklist
+==============
 
-- [ ] Git installation
+- [x] Git installation
 - [ ] Git quick tutorial
 - [ ] Git primary commands
 - [ ] Git error handling
@@ -10,7 +11,16 @@
 - [ ] R packages 
 - [ ] ...
 
-## Git
+Table of Contents
+=================
+
+  * [Git](#git)
+  * [R](#r)
+  * [Python](#python)
+  * [JavaScript](#javascript)
+  * [References](#references)
+
+## Git {#git}
 
 ### What is Git?
 
@@ -38,7 +48,7 @@ git --version
 ```
 
 If it's already installed, the output of that command should look like `git
-version 2.26.0`! If your version is anything below 2.22.x, you need to consider
+version 2.26.0`. If your version is anything below 2.22.x, you need to consider
 an update of the Git installation on your local machine. Versions before this
 are no longer maintained.
 
@@ -50,9 +60,14 @@ Otherwise, please follow the instructions for each operating system:
 
 ### Quick Tutorial
 
+#### On your local machine
+
+#### On GitHub
+
 ### Primary Commands
 
-## R
+
+## R {#r}
 
 ### Installation
 
@@ -62,7 +77,7 @@ Otherwise, please follow the instructions for each operating system:
 
 ### R Packages
 
-## Python
+## Python {#python}
 
 ### Installation
 
@@ -70,7 +85,9 @@ Otherwise, please follow the instructions for each operating system:
 
 ### Jupyter Notebooks
 
-## References (by topic)
+## JavaScript
+
+## References {#references}
 
 Please consider reviewing the following references to familiarize yourself
 further  with a given topic (i.e., Git).
