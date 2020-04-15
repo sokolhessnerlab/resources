@@ -72,6 +72,21 @@ Otherwise, please follow the instructions for each operating system:
 
 ### Setup
 
+You will want to configure Git on your local machine. To do so, therre's
+a fantastic guide for [First-Time Git
+Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+The most important steps are relatively straightforward: declare your identity. For your identity, the following two
+commands need to run:
+
+```
+git config --global user.name "First Last"
+git config --global user.email firstlast@example.com
+```
+
+You'll need to replace `"First Last"` with your own name (i.e. `"Ari Dyckovsky"`) and `firstlast@example.com` with the email address you want to be associated with remote Git accounts (i.e., GitHub). Typically, personal emails are best for these accounts for organization purposes, and various settings can be utilized to hide your personal email from any sort of public view.
+
+Another configuration you might consider is that of he text editor Git will use by default. If not configured, the editor  will be your system's default text editor (i.e., `vim` or `emacs`).
+
 <div id="git_tutorial"></div>
 
 ### (Quick) Tutorial
