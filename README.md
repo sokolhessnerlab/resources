@@ -1,7 +1,6 @@
 # Guides & References for Sokol-Hessner Lab
 
-TODO Checklist
-==============
+### TODO Checklist
 
 - [x] Git installation
 - [ ] Git quick tutorial
@@ -11,16 +10,16 @@ TODO Checklist
 - [ ] R packages 
 - [ ] ...
 
-Table of Contents
-=================
+### Table of Contents
 
-  * [Git](#git)
-  * [R](#r)
-  * [Python](#python)
-  * [JavaScript](#javascript)
-  * [References](#references)
+  [Git](#git)
+  [R](#r)
+  [Python](#python)
+  [JavaScript](#javascript)
+  [References](#references)
 
-## Git {#git}
+
+## Git <a name="git"></a>
 
 ### What is Git?
 
@@ -64,10 +63,7 @@ Otherwise, please follow the instructions for each operating system:
 
 #### On GitHub
 
-### Primary Commands
-
-
-## R {#r}
+## R <a name="r"></a>
 
 ### Installation
 
@@ -77,7 +73,7 @@ Otherwise, please follow the instructions for each operating system:
 
 ### R Packages
 
-## Python {#python}
+## Python <a name="python"></a>
 
 ### Installation
 
@@ -85,9 +81,9 @@ Otherwise, please follow the instructions for each operating system:
 
 ### Jupyter Notebooks
 
-## JavaScript
+## JavaScript <a name="javascript"></a>
 
-## References {#references}
+## References <a name="references"></a>
 
 Please consider reviewing the following references to familiarize yourself
 further  with a given topic (i.e., Git).
