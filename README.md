@@ -19,7 +19,8 @@
 - [References](#references)
 
 
-## Git <div id="git"></div>
+<div id="git"></div>
+## Git
 
 ### What is Git?
 
