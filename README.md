@@ -30,6 +30,24 @@ network..."
 
 ### Installation
 
+Depending on your operating system, you might already have Git. Before trying
+to install, run the following command in your shell:
+
+```
+git --version
+```
+
+If it's already installed, the output of that command should look like `git
+version 2.26.0`! If your version is anything below 2.22.x, you need to consider
+an update of the Git installation on your local machine. Versions before this
+are no longer maintained.
+
+Otherwise, please follow the instructions for each operating system:
+
+- [Git for Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_linux)
+- [Git for Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_windows)
+- [Git for macOS](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_macos)
+
 ### Quick Tutorial
 
 ### Primary Commands
