@@ -1,17 +1,33 @@
 # Guides & References for Sokol-Hessner Lab
 
-## TODO Checklist
+Welcome to the resources repository for The Sokol-Hessner Lab. The repo
+contains collections of "how-to" technical guides, templates, useful references and various
+tidbits of information. While many of the resources herein were written with
+our lab's needs in mind, we encourage other labs and collaborators to take
+advantage our learnings.
 
-- [x] Git installation
-- [ ] Git quick tutorial
-- [ ] Git primary commands
-- [ ] Git error handling
-- [ ] R installation
-- [ ] R packages 
-- [ ] ...
+The following Table of Contents (ToC) should be your primary method of navigating
+resources. Only after a resource is developed to a sufficient level of
+completeness will it be linked to by the ToC, so if you're looking for
+ready-to-use information, the ToC is your best bet! 
+
+Please note: This is a living, breathing repo that will be updated from time to
+time. We will do our best to maintain a stable version of all resources that
+you can rely on, but sometimes changes are unavoidable (i.e., when dependencies
+themselves are changed).
 
 ## Table of Contents
 
+- [General Concepts](#general_concepts)
+  - [Version Control](#general_concepts_version_control)
+  - [Command Line Interfaces (CLIs)](#general_concepts_cli)
+    - [First-Time with CLI](#general_concepts_cli_first_time)
+    - [Uncomfortable with CLI](#general_concepts_cli_uncomfortable)
+    - [Comfortable with CLI](#general_concepts_cli_comfortable)
+  - [Virtual Private Networks (VPNs)](#general_concepts_shared_drives)
+  - [Shared Drives](#general_concepts_shared_drives)
+    - [SMB](#general_concepts_shared_drives_smb)
+      - [Mounting](#general_concepts_shared_drives_smb_mounting)
 - [Git](#git)
   - [What is Git?](#git_what_is)
   - [Install & Setup](#git_install_and_setup)
@@ -23,6 +39,74 @@
 - [MATLAB](#matlab)
 - [References](#references)
 
+<div id="general_concepts"></div>
+
+# General Concepts
+
+<div id="general_concepts_version_control"></div>
+
+## Version Control
+
+What is version control? Why is it so important? Is it worth learning?
+
+Many before us have answered these questions *ad absurdum*. Some of the best
+answers can be found at the following links:
+
+1. (Git's "About Version Control")[https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control]
+2. (Michael Ernst's "Introduction to version
+   control")[https://homes.cs.washington.edu/~mernst/advice/version-control.html#Introduction_to_version_control]
+3.
+(Stack Overflow Answer to "Why should I use version control?")[https://stackoverflow.com/questions/1408450/why-should-i-use-version-control/1408464#1408464] 
+
+<div id="general_concepts_cli"></div>
+
+## Command Line Interfaces (CLI)
+
+If you've never used the command line, that's about to change. If you've used
+it, and don't feel comfortable with it, that's about to change.
+
+Comfort in using the command line is the single-most useful skill you will
+ever develop as a programmer, no matter what you plan to program.
+
+What is the command line interface (CLI)? 
+: It is simply a text interface that you, the user, use to interact with a computer. In most cases, the CLI passes
+input (your text commands) to the computer's operating system, runs the
+commands, and outputs the response. 
+
+<div id="general_concepts_cli_first_time_user"></div>
+
+### First-Time with CLI
+
+If you've never used the command line, let's change that: Play some
+(Terminus)[http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html].
+
+<div id="general_concepts_cli_uncomfortable_user"></div>
+
+### Uncomfortable with CLI
+
+Coming soon...
+
+<div id="general_concepts_cli_comfortable_user"></div>
+
+### Comfortable with CLI
+
+Coming soon...
+
+<div id="general_concepts_vpn"></div>
+
+## Virtual Private Networks (VPNs)
+
+<div id="general_concepts_shared_drives"></div>
+
+## Shared Drives
+
+<div id="general_concepts_shared_drives_smb"></div>
+
+### SMB
+
+<div id="general_concepts_shared_drives_smb_mounting"></div>
+
+#### Mounting
 
 <div id="git"></div>
 
@@ -102,7 +186,7 @@ git config --global alias.last 'log -1 HEAD'
 
 Git is an incredible resource and is the best-in-breed version control system.
 However, it has a bit of a learning curve. The following subsections briefly
-describe the most important features of Git and detail how to use them correctly. In general, when in doubt, try `git help`!
+describe the most important features of Git and detail how to use them correctly. In general, when in doubt, try `git --help`!
 
 ### Add/remove changes
 
@@ -193,17 +277,13 @@ git config --global commit.template ~/.gitmessage
 
 <div id="git_tutorial"></div>
 
-## (Quick) Tutorial
+## Git Tutorial
 
 <div id="r"></div>
 
 # R
 
-## Installation
-
-## Quick Tutorial
-
-## R Studio Projects
+## Install & Setup
 
 ## R Packages
 
@@ -211,9 +291,7 @@ git config --global commit.template ~/.gitmessage
 
 # Python
 
-## Installation
-
-## Quick Tutorial
+## Install & Setup
 
 ## Jupyter Notebooks
 
@@ -230,18 +308,8 @@ git config --global commit.template ~/.gitmessage
 # References 
 
 Please consider reviewing the following references to familiarize yourself
-further  with a given topic (i.e., Git).
+further with a given topic (i.e., Git).
 
 ## Git
 
-### Stack Overflow
-
 - [Visualizing branch topology in Git](https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/34467298#34467298)
-
-## R
-
-### Stack Overflow
-
-## Python
-
-### Stack Overflow
