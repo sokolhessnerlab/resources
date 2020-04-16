@@ -1,6 +1,6 @@
 # Guides & References for Sokol-Hessner Lab
 
-### TODO Checklist
+## TODO Checklist
 
 - [x] Git installation
 - [ ] Git quick tutorial
@@ -10,13 +10,12 @@
 - [ ] R packages 
 - [ ] ...
 
-### Table of Contents
+## Table of Contents
 
 - [Git](#git)
   - [What is Git?](#git_what_is)
-  - [Installation](#git_install)
-  - [Setup](#git_setup)
-  - [Committing Your Changes](#git_commit)
+  - [Install & Setup](#git_install_and_setup)
+  - [Usage & Workflow](#git_usage_and_workflow)
   - [Tutorial](#git_tutorial)
 - [R](#r)
 - [Python](#python)
@@ -27,11 +26,11 @@
 
 <div id="git"></div>
 
-## Git
+# Git
 
 <div id="git_what_is"></div>
 
-### What is Git?
+## What is Git?
 
 Before using Git, one must understand Git. Please read through
 [What is Git?](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
@@ -47,9 +46,9 @@ network..."
 - "Git has three main states that your files can reside in: modified, staged,
   and committed..."
 
-<div id="git_install"></div>
+<div id="git_install_and_setup"></div>
 
-### Installation
+## Install & Setup
 
 Depending on your operating system, you might already have Git. Before trying
 to install, run the following command in your shell:
@@ -63,15 +62,15 @@ version 2.26.0`. If your version is anything below 2.22.x, you need to consider
 an update of the Git installation on your local machine. Versions before this
 are no longer maintained.
 
-Otherwise, please follow the instructions for each operating system:
+### Instructions for installing Git
+
+Please follow the instructions for each operating system:
 
 - [Git for Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_linux)
 - [Git for Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_windows)
 - [Git for macOS](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_macos)
 
-<div id="git_setup"></div>
-
-### Setup
+### Configure global Git settings
 
 You will want to configure Git on your local machine. To do so, therre's
 a fantastic guide for [First-Time Git
@@ -88,7 +87,7 @@ You'll need to replace `"First Last"` with your own name (i.e. `"Ari Dyckovsky"`
 
 Another configuration you might consider is that of he text editor Git will use by default. If not configured, the editor  will be your system's default text editor (i.e., `vim` or `emacs`).
 
-#### Useful Aliases
+### Configure useful aliases
 
 The following [aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases#_git_aliases) are not native to Git, but will make your life easier if you configure them. 
 
@@ -97,9 +96,42 @@ git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'
 ```
 
-### Committing Your Changes
+<div id="git_usage_and_workflow"></div>
 
-#### Configuring `~/.gitmessage`
+## Using Git (with CLI)
+
+Git is an incredible resource and is the best-in-breed version control system.
+However, it has a bit of a learning curve. The following subsections briefly
+describe the most important features of Git and detail how to use them correctly. In general, when in doubt, try `git help`!
+
+### Adding/removing changes
+
+After you've made changes to a file or multiple files within a Git repository,
+those changes should be recorded. Any change must first be **added** to the
+index (AKA the staging area) before it can be recorded (committed). Any change
+currently in the index can be **removed** from the index as well.
+
+Add changed files to the index using one of the following main patterns:
+
+- `git add .` if you'd like to update the index with *every* file with changes
+- `git add *.R` if you'd like add only files with extension `.R` (the same goes
+  for any file extension), or 
+- `git add dir` if you'd like to add all files within a dir named `dir`.
+
+Remove changed files from the index by using `git rm`. You can learn more about
+this command [in the docs](https://git-scm.com/docs/git-rm).
+
+### Committing changes
+
+Once files with changes are added to the index, they can be committed. Run
+
+```
+git commit
+```
+
+and key in a message about the the commit you're making.
+
+#### Commit messages and `~/.gitmessage`
 
 When committing changes to a repository, a commit message is **absolutely
 necessary**. It's [good
@@ -156,55 +188,55 @@ Navigate to the root of this project directory on your local machine. Then run `
 
 <div id="git_tutorial"></div>
 
-### (Quick) Tutorial
+## (Quick) Tutorial
 
 <div id="r"></div>
 
-## R
+# R
 
-### Installation
+## Installation
 
-### Quick Tutorial
+## Quick Tutorial
 
-### R Studio Projects
+## R Studio Projects
 
-### R Packages
+## R Packages
 
 <div id="python"></div>
 
-## Python
+# Python
 
-### Installation
+## Installation
 
-### Quick Tutorial
+## Quick Tutorial
 
-### Jupyter Notebooks
+## Jupyter Notebooks
 
 <div id="javascript"></div>
 
-## JavaScript
+# JavaScript
 
 <div id="matlab"></div>
 
-## MATLAB
+# MATLAB
 
 <div id="references"></div>
 
-## References 
+# References 
 
 Please consider reviewing the following references to familiarize yourself
 further  with a given topic (i.e., Git).
 
-### Git
+## Git
 
-#### Stack Overflow
+### Stack Overflow
 
 - [Visualizing branch topology in Git](https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/34467298#34467298)
 
-### R
+## R
 
-#### Stack Overflow
+### Stack Overflow
 
-### Python
+## Python
 
-#### Stack Overflow
+### Stack Overflow
