@@ -33,6 +33,9 @@ themselves are changed).
   - [Install & Setup](#git_install_and_setup)
   - [Usage & Workflow](#git_usage_and_workflow)
   - [Tutorial](#git_tutorial)
+- [GitHub](#github)
+  - [What is GitHub?](#github_what_is)
+  - [Sign up](#github_sign_up)
 - [R](#r)
 - [Python](#python)
 - [JavaScript](#javascript)
@@ -277,6 +280,25 @@ git config --global commit.template ~/.gitmessage
 <div id="git_tutorial"></div>
 
 ## Git Tutorial
+
+<div id="github"></div>
+
+# GitHub
+
+<div id="github_what_is"></div>
+
+## What is GitHub?
+
+According to the [GitHub](https://github.com/) website,
+
+> GitHub is a development platform inspired by the way you work. From open source to business, you can host and review code, manage projects, and build software alongside 40 million developers.
+
+<div id="github_sign_up"></div>
+
+## Sign Up
+
+To join GitHub, sign up using with a username, email, and password at [this
+link](https://github.com/join).
 
 <div id="r"></div>
 
