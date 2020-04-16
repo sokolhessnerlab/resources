@@ -36,6 +36,8 @@ themselves are changed).
 - [GitHub](#github)
   - [What is GitHub?](#github_what_is)
   - [Sign up](#github_sign_up)
+  - [Sokol-Hessner Lab on GitHub](#github_sokolhessnerlab)
+    - [Invitations](#github_sokolhessnerlab_invitations)
 - [R](#r)
 - [Python](#python)
 - [JavaScript](#javascript)
@@ -299,6 +301,21 @@ According to the [GitHub](https://github.com/) website,
 
 To join GitHub, sign up using with a username, email, and password at [this
 link](https://github.com/join).
+
+<div id="github_sokolhessnerlab"></div>
+
+## Sokol-Hessner Lab on GitHub
+
+Once you have a GitHub account, you'll want to join our lab so that you can
+collaborate on projects with us! To do this, you'll need to be invited and
+added as a team member.
+
+<div id="github_sokolhessnerlab_invitations"></div>
+
+### Invitations
+
+Please provide Ari your GitHub username and he will coordinate an invitation.
+You can do this via Slack (@ari) or email (aridyckovsky@gmail.com).
 
 <div id="r"></div>
 
