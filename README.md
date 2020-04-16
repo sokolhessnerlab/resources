@@ -317,6 +317,29 @@ added as a team member.
 Please provide Ari your GitHub username and he will coordinate an invitation.
 You can do this via Slack (@ari) or email (aridyckovsky@gmail.com).
 
+## Clone this repository
+
+With both Git and GitHub configured, you'll want to try your hand at using
+them! The best way to get started is to jump right in. Your first step should be 
+interacting with the very repo that you're reading this guide on.
+
+From your terminal, navigate to the directory you'd like to download the repo
+to. For example, if you have a directory called `Projects`, you might run
+
+```
+cd ~/Projects
+```
+
+and within this directory, clone the `resources` repository via
+
+```
+git clone https://github.com/sokolhessnerlab/resources.git
+```
+
+This will download the most up-to-date version and associated branches to your
+local machine. Once complete, run `cd resources` and you'll be in the root
+directory of the repository!
+
 <div id="r"></div>
 
 # R
