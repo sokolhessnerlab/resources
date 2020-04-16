@@ -52,11 +52,10 @@ What is version control? Why is it so important? Is it worth learning?
 Many before us have answered these questions *ad absurdum*. Some of the best
 answers can be found at the following links:
 
-1. (Git's "About Version Control")[https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control]
-2. (Michael Ernst's "Introduction to version
-   control")[https://homes.cs.washington.edu/~mernst/advice/version-control.html#Introduction_to_version_control]
-3.
-(Stack Overflow Answer to "Why should I use version control?")[https://stackoverflow.com/questions/1408450/why-should-i-use-version-control/1408464#1408464] 
+1. [Git's "About Version Control"](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+2. [Michael Ernst's "Introduction to version
+   control"](https://homes.cs.washington.edu/~mernst/advice/version-control.html#Introduction_to_version_control)
+3. [Stack Overflow Answer to "Why should I use version control?"](https://stackoverflow.com/questions/1408450/why-should-i-use-version-control/1408464#1408464)
 
 <div id="general_concepts_cli"></div>
 
@@ -78,7 +77,7 @@ commands, and outputs the response.
 ### First-Time with CLI
 
 If you've never used the command line, let's change that: Play some
-(Terminus)[http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html].
+[Terminus](http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html).
 
 <div id="general_concepts_cli_uncomfortable_user"></div>
 
