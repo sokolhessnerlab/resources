@@ -98,13 +98,13 @@ git config --global alias.last 'log -1 HEAD'
 
 <div id="git_usage_and_workflow"></div>
 
-## Using Git (with CLI)
+## Use Git (with CLI)
 
 Git is an incredible resource and is the best-in-breed version control system.
 However, it has a bit of a learning curve. The following subsections briefly
 describe the most important features of Git and detail how to use them correctly. In general, when in doubt, try `git help`!
 
-### Adding/removing changes
+### Add/remove changes
 
 After you've made changes to a file or multiple files within a Git repository,
 those changes should be recorded. Any change must first be **added** to the
@@ -121,7 +121,7 @@ Add changed files to the index using one of the following main patterns:
 Remove changed files from the index by using `git rm`. You can learn more about
 this command [in the docs](https://git-scm.com/docs/git-rm).
 
-### Committing changes
+### Commit changes
 
 Once files with changes are added to the index, they can be committed. Run
 
@@ -134,28 +134,24 @@ and key in a message about the the commit you're making.
 #### Commit messages and `~/.gitmessage`
 
 When committing changes to a repository, a commit message is **absolutely
-necessary**. It's [good
+necessary**. 
+
+It's also [good
 practice](https://chris.beams.io/posts/git-commit/) to have a consistent set of messages
 regardless of who is writing the message. Future you and future collaborators will
-thank you for adhering to this.
+all thank you for adhering to this.
 
-A reliable commit message format can be enforced by configuring
+A reliable commit message format can be most effectively adhered to by configuring
 a template for your local machine. Either of the two methods below can be used to add
-the template to your computer:
+the template to your computer.
 
-Once the template is in `~/.gitmessage`, run the following global
-configuration command:
-
-```
-git config --global commit.template ~/.gitmessage
-```
 
 Going forward, your commits should follow this format, and Git will expect the
 template to be filled each time you run `git commit`.
 
 ##### 1. Manually
 
-Select the text in the code block directly below into a `~/.gitmessage` file. You can do this by running `vim ~/.gitmessage` or
+Copy the text in the code block directly below into your `~/.gitmessage` file. You can do this by running `vim ~/.gitmessage` or
 your text editor of choice from the command line. After you've pasted the text,
 save and close the file.
 
@@ -185,6 +181,15 @@ Notes:
 ##### 2. Semi-automatically
 
 Navigate to the root of this project directory on your local machine. Then run `cp templates/gitmessage ~/.gitmessage`.
+
+#### Configure commit message template
+
+Once the template is in `~/.gitmessage`, run the following global
+configuration command:
+
+```
+git config --global commit.template ~/.gitmessage
+```
 
 <div id="git_tutorial"></div>
 
