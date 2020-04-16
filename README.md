@@ -38,6 +38,7 @@ themselves are changed).
   - [Sign up](#github_sign_up)
   - [Sokol-Hessner Lab on GitHub](#github_sokolhessnerlab)
     - [Invitations](#github_sokolhessnerlab_invitations)
+  - [Clone this repository](#github_clone_resources)
 - [R](#r)
 - [Python](#python)
 - [JavaScript](#javascript)
@@ -316,6 +317,8 @@ added as a team member.
 
 Please provide Ari your GitHub username and he will coordinate an invitation.
 You can do this via Slack (@ari) or email (aridyckovsky@gmail.com).
+
+<div id="github_clone_resources"></div>
 
 ## Clone this repository
 
