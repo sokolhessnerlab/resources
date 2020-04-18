@@ -355,7 +355,7 @@ appropriate emoji can really brighten up an otherwise very technical document.
 
 For your first contribution to the `resources` repository, you're going to find
 somewhere in this `README` that you believe will benefit from an emoji. You
-can see which emojis are avialabe with their associated emoji codes with the
+can see which emojis are availabe with their associated emoji codes with the
 [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/). 
 
 We'll go through this first contribution step-by-step. Before getting started
