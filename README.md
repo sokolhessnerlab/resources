@@ -32,13 +32,14 @@ themselves are changed).
   - [What is Git?](#git_what_is)
   - [Install & Setup](#git_install_and_setup)
   - [Usage & Workflow](#git_usage_and_workflow)
-  - [Tutorial](#git_tutorial)
+  - [Tutorial: Emoji](#git_tutorial_emoji)
 - [GitHub](#github)
   - [What is GitHub?](#github_what_is)
   - [Sign up](#github_sign_up)
   - [Sokol-Hessner Lab on GitHub](#github_sokolhessnerlab)
     - [Invitations](#github_sokolhessnerlab_invitations)
   - [Clone this repository](#github_clone_resources)
+  - [Tutorial: Emoji](#github_tutorial_emoji)
 - [R](#r)
 - [Python](#python)
 - [JavaScript](#javascript)
@@ -280,9 +281,9 @@ configuration command:
 git config --global commit.template ~/.gitmessage
 ```
 
-<div id="git_tutorial"></div>
+<div id="git_tutorial_emoji"></div>
 
-## Git Tutorial
+## Git Tutorial: Emoji
 
 <div id="github"></div>
 
@@ -343,6 +344,101 @@ This will download the most up-to-date version and associated branches to your
 local machine. Once complete, run `cd resources` and you'll be in the root
 directory of the repository!
 
+<div id="github_clone_resources"></div>
+
+## Your first GitHub contribution
+
+It turns out that [GitHub supports emojis](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji) automagically with it’s Markdown 
+conversion engine! This means that GitHub will convert text strings of the type `:EMOJICODE:` 
+to its avatar when inside files ending `.md`. A well-placed and contextually
+appropriate emoji can really brighten up an otherwise very technical document.
+
+For your first contribution to the `resources` repository, you're going to find
+somewhere in this `README` that you believe will benefit from an emoji. You
+can see which emojis are avialabe with their associated emoji codes with the
+[Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/). 
+
+We'll go through this first contribution step-by-step. Before getting started
+here, please make sure you have read the *entire* [Git](#git) section of this `README`,
+be sure to have your GitHub profile [added to the lab's
+organization](#github_sokolhessnerlab_invitations). Lastly, you should [clone this
+repository](#github_clone_resources) so you can work on it from your local
+machine.
+
+### Let's get startd!
+
+Inside your terminal application, navigate to the `resources` repository on your local machine. At the root of the
+`resources` directory, run
+
+```
+git pull --rebase origin master
+```
+
+This will make sure your local version of the repository is up to date with the
+stable remote version of the repository. Since you are going to make
+a contribution for the first time, we will consider this experimental.
+Therefore, we should create a new branch for your experiment. 
+
+#### Create New Local Branch
+
+Check which branches are currently indexed on the remote repository:
+
+```
+git branch -a
+```
+
+This will return a list of branches, both local and remote. The remote branches
+will have the format `remotes/origin/<branch-name>`, where `<branch-name>`
+might be `HEAD`, `master`, `contributing`, etc. 
+
+You want to create a new branch locally with a name that does not exist yet.
+You also want the branch name to precisely and concisely describe its
+purpose. For example, consider creating your branch in the following way:
+
+```
+git checkout -b section/emojicode
+```
+
+This will checkout a new branch on your local machine with a branch identifier composed of the `section` you plan to add
+and emoji to and the `emojicode` you intend to use for it. This is short and
+sweet, and hopefully unique. :bowtie: (If not, there are still infinitely many text
+strings you can use to name your branch with.)
+
+#### Add your emoji
+
+You should now be in your brand new branch. Open the file `README.md`. Find the
+place in the text you were planning to add your emoji. Add the emoji code and
+save the file.
+
+#### Add, commit and push your emoji
+
+Back to the command line, it's time to push your new emoji. Run
+
+```
+git add README.md
+git commit
+```
+
+In your commit message, try to be specific and follow the template's intended
+structure. This will make it easier to refer back to your modification later.
+With your commit ready, you now need to create a remote branch to push to via
+
+```
+git push -u origin <branch-name>
+```
+
+If this succeeds without error, it's time to take a look on the [GitHub page itself](https://github.com/sokolhessnerlab/resources).
+From here, navigate to your new branch, and see if the emoji appeared where
+and how you intended it. If so, fantastic! If not, try to debug on your local
+version of the branch. When you think it's fixed: add, commit, and push the
+update to the remote branch. Continue in this way until the emoji is exactly where and how you
+intended it to be in the document.
+
+#### Submit a pull request
+
+Coming soon...in the meantime, let Ari know you've gotten to this step and he
+can give you next steps!
+
 <div id="r"></div>
 
 # R
@@ -377,3 +473,4 @@ further with a given topic (i.e., Git).
 ## Git
 
 - [Visualizing branch topology in Git](https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/34467298#34467298)
+
