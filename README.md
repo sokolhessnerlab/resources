@@ -32,7 +32,7 @@ themselves are changed).
   - [What is Git?](#git_what_is)
   - [Install & Setup](#git_install_and_setup)
   - [Usage & Workflow](#git_usage_and_workflow)
-  - [Tutorial: Emoji](#git_tutorial_emoji)
+  - [Tutorial](#git_tutorial)
 - [GitHub](#github)
   - [What is GitHub?](#github_what_is)
   - [Sign up](#github_sign_up)
@@ -344,9 +344,9 @@ This will download the most up-to-date version and associated branches to your
 local machine. Once complete, run `cd resources` and you'll be in the root
 directory of the repository!
 
-<div id="github_clone_resources"></div>
+<div id="github_tutorial_emoji"></div>
 
-## Your first GitHub contribution
+## GitHub Tutorial: Emoji
 
 It turns out that [GitHub supports emojis](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji) automagically with it’s Markdown 
 conversion engine! This means that GitHub will convert text strings of the type `:EMOJICODE:` 
@@ -365,7 +365,7 @@ organization](#github_sokolhessnerlab_invitations). Lastly, you should [clone th
 repository](#github_clone_resources) so you can work on it from your local
 machine.
 
-### Let's get startd!
+### Let's get started!
 
 Inside your terminal application, navigate to the `resources` repository on your local machine. At the root of the
 `resources` directory, run
