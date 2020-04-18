@@ -359,10 +359,11 @@ can see which emojis are availabe with their associated emoji codes with the
 [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/). 
 
 We'll go through this first contribution step-by-step. Before getting started
-here, please make sure you have read the *entire* [Git](#git) section of this `README`,
+here, please make sure you have read the *entire* [Git](#git) section of this `README` and
 be sure to have your GitHub profile [added to the lab's
-organization](#github_sokolhessnerlab_invitations). Lastly, you should [clone this
-repository](#github_clone_resources) so you can work on it from your local
+organization](#github_sokolhessnerlab_invitations). 
+
+Then, you must [clone this repository](#github_clone_resources) so you can work on it from your local
 machine.
 
 ### Let's get started!
@@ -404,7 +405,7 @@ and emoji to and the `emojicode` you intend to use for it. This is short and
 sweet, and hopefully unique. :bowtie: (If not, there are still infinitely many text
 strings you can use to name your branch with.)
 
-#### Add your emoji
+#### Modify `README.md` and include your emoji
 
 You should now be in your brand new branch. Open the file `README.md`. Find the
 place in the text you were planning to add your emoji. Add the emoji code and
