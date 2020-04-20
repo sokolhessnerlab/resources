@@ -163,14 +163,14 @@ sheet](http://www.fprintf.net/vimCheatSheet.html) helpful.
 
 ### Sublime
 
-(Sublime)[https://www.sublimetext.com/] is a fantastic text editor that uses plugins to provide syntax highlighting, file-type recognition, and
+[Sublime](https://www.sublimetext.com/) is a fantastic text editor that uses plugins to provide syntax highlighting, file-type recognition, and
 various other useful features for developers.
 
 <div id="general_concepts_text_editors_atom"></div>
 
 ### Atom
 
-(Atom)[https://atom.io/] is another great text editor that is super
+[Atom](https://atom.io/) is another great text editor that is super
 customizable and is maintained by GitHub itself.
 
 <div id="general_concepts_vpn"></div>
