@@ -27,6 +27,7 @@ themselves are changed).
   - [Text Editors](#general_concepts_text_editors)
     - [Vim](#general_concepts_text_editors_vim)
     - [Sublime](#general_concepts_text_editors_sublime)
+    - [Atom](#general_concepts_text_editors_atom)
   - [Virtual Private Networks (VPNs)](#general_concepts_shared_drives)
   - [Shared Drives](#general_concepts_shared_drives)
     - [SMB](#general_concepts_shared_drives_smb)
@@ -162,6 +163,15 @@ sheet](http://www.fprintf.net/vimCheatSheet.html) helpful.
 
 ### Sublime
 
+(Sublime)[https://www.sublimetext.com/] is a fantastic text editor that uses plugins to provide syntax highlighting, file-type recognition, and
+various other useful features for developers.
+
+<div id="general_concepts_text_editors_atom"></div>
+
+### Atom
+
+(Atom)[https://atom.io/] is another great text editor that is super
+customizable and is maintained by GitHub itself.
 
 <div id="general_concepts_vpn"></div>
 
