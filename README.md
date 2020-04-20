@@ -392,10 +392,10 @@ You also want the branch name to precisely and concisely describe its
 purpose. For example, consider creating your branch in the following way:
 
 ```
-git checkout -b section/emojicode
+git checkout -b tutorial/emojicode
 ```
 
-This will checkout a new branch on your local machine with a branch identifier composed of the `section` you plan to add
+This will checkout a new branch on your local machine with a branch-type identifier (i.e., tutorial)
 and emoji to and the `emojicode` you intend to use for it. This is short and
 sweet, and hopefully unique. :bowtie: (If not, there are still infinitely many text
 strings you can use to name your branch with.)
@@ -430,10 +430,39 @@ version of the branch. When you think it's fixed: add, commit, and push the
 update to the remote branch. Continue in this way until the emoji is exactly where and how you
 intended it to be in the document.
 
+#### Merging your emoji(s)
+
+After your branch is ready to go, it's time to merge it into the `master`
+branch. Please double check that the code on your branch is free of bugs before
+merging.
+
+Begin by checking out the `master` branch:
+
+```
+git checkout master
+```
+
+Then, while on the `master` branch, make sure your local branch is synced to the remote by running
+
+```
+git pull origin master
+```
+
+It's time to merge in your branch commits locally, using
+
+```
+git merge <branch-name>
+```
+
+Lastly, push these changes to the remote, by running
+
+```
+git push origin master
+```
+
 #### Submit a pull request
 
-Coming soon...in the meantime, let Ari know you've gotten to this step and he
-can give you next steps!
+Coming soon...
 
 <div id="r"></div>
 
