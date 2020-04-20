@@ -351,7 +351,7 @@ directory of the repository!
 It turns out that [GitHub supports emojis](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji) automagically with it’s Markdown 
 conversion engine! This means that GitHub will convert text strings of the type `:EMOJICODE:` 
 to its avatar when inside files ending `.md`. A well-placed and contextually
-appropriate emoji :poop: can really brighten up :sun: an otherwise very technical document :sleepingface:.
+appropriate emoji :poop: can really brighten up :sunny: an otherwise very technical document :sleeping:.
 
 For your first contribution to the `resources` repository, you're going to find
 somewhere in this `README` that you believe will benefit from an emoji. You
