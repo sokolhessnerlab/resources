@@ -230,6 +230,9 @@ Please follow the instructions for each operating system:
 You will want to configure Git on your local machine. To do so, therre's
 a fantastic guide for [First-Time Git
 Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+
+#### Identity
+
 The most important steps are relatively straightforward: declare your identity. For your identity, the following two
 commands need to run:
 
@@ -240,9 +243,20 @@ git config --global user.email firstlast@example.com
 
 You'll need to replace `"First Last"` with your own name (i.e. `"Ari Dyckovsky"`) and `firstlast@example.com` with the email address you want to be associated with remote Git accounts (i.e., GitHub). Typically, personal emails are best for these accounts for organization purposes, and various settings can be utilized to hide your personal email from any sort of public view.
 
-Another configuration you might consider is that of he text editor Git will use by default. If not configured, the editor  will be your system's default text editor (i.e., `vim` or `emacs`).
+#### Default text editor
 
-### Configure useful aliases
+Another configuration you might consider is that of the text editor Git will use by default. If not configured, the editor will be your system's default text editor (i.e., `vim` or `emacs`). If you arre not comfortable with a command-line editor, we suggest configuring a new default text editor (i.e., [Sublime](#general_concepts_text_editors_sublime)). You can do this using:
+
+```
+git config --global core.editor sublime
+```
+
+Now, any time you run `git commit` or Git needs to open a file, it will use the
+editor you configured. If you want to use a different text editor, simply
+replace `sublime` with your preferred editor (such as
+`atom`, `nano`, etc.).
+
+#### Useful aliases
 
 The following [aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases#_git_aliases) are not native to Git, but will make your life easier if you configure them. 
 
