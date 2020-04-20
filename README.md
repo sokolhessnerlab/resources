@@ -32,7 +32,6 @@ themselves are changed).
   - [What is Git?](#git_what_is)
   - [Install & Setup](#git_install_and_setup)
   - [Usage & Workflow](#git_usage_and_workflow)
-  - [Tutorial](#git_tutorial)
 - [GitHub](#github)
   - [What is GitHub?](#github_what_is)
   - [Sign up](#github_sign_up)
@@ -280,10 +279,6 @@ configuration command:
 ```
 git config --global commit.template ~/.gitmessage
 ```
-
-<div id="git_tutorial_emoji"></div>
-
-## Git Tutorial: Emoji
 
 <div id="github"></div>
 
