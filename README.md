@@ -108,12 +108,18 @@ Coming soon...
 
 ### Vim
 
+
+#### What is `Vim`?
+
 As stated on [vim.org](https://www.vim.org/),
 
 > Vim is a highly configurable text editor for efficiently creating and changing any kind of text.
 > It is included as "vi" with most UNIX systems and with Apple OS X.
 
-There are other command-line text editors, and plenty of opinions about which
+It is incredibly powerful as they suggest, but does come with a difficult learning curve. For those who care about incredible
+text-editing efficiency (i.e., software developers), nothing beats a command-line text editor like `vim`.
+
+Note: There are other command-line text editors, and plenty of opinions about which
 is best. You can enjoy reading about the [pros and
 cons](https://unix.stackexchange.com/questions/986/what-are-the-pros-and-cons-of-vim-and-emacs/988#988)
 often discussed in the [Editor war](https://en.wikipedia.org/wiki/Editor_war).
@@ -136,6 +142,21 @@ save [this documentation page](https://www.vim.org/docs.php) for reference.
 #### Learning `Vim`
 
 A fun way to get started with `vim` is through the [VIM Adventures](https://vim-adventures.com/). Otherwise, the best way to learn `vim` is to start using it.
+
+Some great beginners' guides are scattered around the interwebs, including
+
+- [A Beginner’s Guide to Editing Text Files With Vi](https://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/)
+
+While more advanced and complete references are
+
+- [Learn vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
+
+#### Basic `Vim`
+
+There is, admittedly, a huge learning curve for `vim` no matter how we slice it. As it is a command-line text editor, your go-to command should
+be `vim --help` any time you need immediate guidance on syntax. Once you open
+a file to edit with `vim`, you might find [this cheat
+sheet](http://www.fprintf.net/vimCheatSheet.html) helpful.
 
 <div id="general_concepts_text_editors_sublime"></div>
 
