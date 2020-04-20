@@ -24,6 +24,9 @@ themselves are changed).
     - [First-Time with CLI](#general_concepts_cli_first_time)
     - [Uncomfortable with CLI](#general_concepts_cli_uncomfortable)
     - [Comfortable with CLI](#general_concepts_cli_comfortable)
+  - [Text Editors](#general_concepts_text_editors)
+    - [Vim](#general_concepts_text_editors_vim)
+    - [Sublime](#general_concepts_text_editors_sublime)
   - [Virtual Private Networks (VPNs)](#general_concepts_shared_drives)
   - [Shared Drives](#general_concepts_shared_drives)
     - [SMB](#general_concepts_shared_drives_smb)
@@ -96,6 +99,48 @@ Coming soon...
 ### Comfortable with CLI
 
 Coming soon...
+
+<div id="general_concepts_text_editors"></div>
+
+## Text Editors
+
+<div id="general_concepts_text_editors_vim"></div>
+
+### Vim
+
+As stated on [vim.org](https://www.vim.org/),
+
+> Vim is a highly configurable text editor for efficiently creating and changing any kind of text.
+> It is included as "vi" with most UNIX systems and with Apple OS X.
+
+There are other command-line text editors, and plenty of opinions about which
+is best. You can enjoy reading about the [pros and
+cons](https://unix.stackexchange.com/questions/986/what-are-the-pros-and-cons-of-vim-and-emacs/988#988)
+often discussed in the [Editor war](https://en.wikipedia.org/wiki/Editor_war).
+
+#### Install & Setup
+
+It's likely both `vi` and `vim` are installed on your operating system by
+default. You can check using `vi --version` or `vim --version`, respectively.
+The version should be 8.0+. The stable version as of this writing is 8.2, and
+it is highly recommended that you upgrade to at least that version. The
+insturctions for downloading and installing this text editor depends on your
+operating system:
+
+- [Vim for Windows & Linux](https://www.vim.org/download.php)
+- [Vim for macOS](https://macvim-dev.github.io/macvim/)
+
+After installing and updating to the latest stable version of `vim`, you might
+save [this documentation page](https://www.vim.org/docs.php) for reference.
+
+#### Learning `Vim`
+
+A fun way to get started with `vim` is through the [VIM Adventures](https://vim-adventures.com/). Otherwise, the best way to learn `vim` is to start using it.
+
+<div id="general_concepts_text_editors_sublime"></div>
+
+### Sublime
+
 
 <div id="general_concepts_vpn"></div>
 
