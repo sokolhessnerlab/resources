@@ -67,7 +67,7 @@ to its avatar when inside files ending `.md`. A well-placed and contextually
 appropriate emoji :poop: can really brighten up :sunny: an otherwise very technical document :sleeping:.
 
 For your first contribution to the `resources` repository, you're going to find
-somewhere in this `README` that you believe will benefit from an emoji. You
+somewhere in this `github.md` article that you believe will benefit from an emoji. You
 can see which emojis are availabe with their associated emoji codes with the
 [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/). 
 
@@ -120,8 +120,9 @@ strings you can use to name your branch with.)
 
 #### Modify `github.md` and include your emoji
 
-You should now be in your brand new branch. Open the file `github.md` (the file
-you're reading this tutorial on). Find the
+You should now be in your brand new branch. Open the file `github.md` from
+inside the `guides` directory (the file
+you're reading this tutorial from). Find the
 place in the text you were planning to add your emoji. Add the emoji code and
 save the file.
 
