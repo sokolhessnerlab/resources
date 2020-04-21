@@ -32,6 +32,9 @@ themselves are changed).
   - [Shared Drives](#general_concepts_shared_drives)
     - [SMB](#general_concepts_shared_drives_smb)
       - [Mounting](#general_concepts_shared_drives_smb_mounting)
+
+### Guides
+
 - [Git](./guides/git.md)
   - [What is Git?](./guides/git.md#what_is_git)
   - [Install](./guides/git.md#install)
@@ -44,11 +47,18 @@ themselves are changed).
     - [Invitations](./guides/github.md/#invitations)
   - [Clone this repository](./guides/github.md/#clone_resources)
   - [Tutorial: Emoji](./guides/github.md/#github_tutorial_emoji)
-- [R](#r)
-- [Python](#python)
-- [JavaScript](#javascript)
-- [MATLAB](#matlab)
-- [References](#references)
+- [R](./guides/r.md)
+- [Python](./guides/python.md)
+- [JavaScript](./guides/javascript.md)
+- [MATLAB](./guides/matlab.md)
+
+### References
+
+- [Git](./references/git.md)
+- [R](./references/r.md)
+- [Python](./references/python.md)
+- [JavaScript](./references/javascript.md)
+- [MATLAB](./references/matlab.md)
 
 <div id="general_concepts"></div>
 
@@ -189,15 +199,4 @@ customizable and is maintained by GitHub itself.
 <div id="general_concepts_shared_drives_smb_mounting"></div>
 
 #### Mounting
-
-<div id="references"></div>
-
-# References 
-
-Please consider reviewing the following references to familiarize yourself
-further with a given topic (i.e., Git).
-
-## Git
-
-- [Visualizing branch topology in Git](https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/34467298#34467298)
 
