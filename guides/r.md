@@ -39,7 +39,7 @@ myriad, but a few great ones to keep in mind are:
 
 ### Our Packages
 
-At the moment, the packages we are actively developing and maintainging are:
+At the moment, the packages we are actively developing and maintaining are:
 
 - [`shlab.imgct`](https://github.com/sokolhessnerlab/shlab.imgct)
 - [`shlab.utils`](https://github.com/sokolhessnerlab/shlab.utils)
