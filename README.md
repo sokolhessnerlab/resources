@@ -16,25 +16,9 @@ time. We will do our best to maintain a stable version of all resources that
 you can rely on, but sometimes changes are unavoidable (i.e., when dependencies
 themselves are changed).
 
-## Table of Contents
+## Guides
 
-- [General Concepts](#general_concepts)
-  - [Version Control](#general_concepts_version_control)
-  - [Command Line Interfaces (CLIs)](#general_concepts_cli)
-    - [First-Time with CLI](#general_concepts_cli_first_time)
-    - [Uncomfortable with CLI](#general_concepts_cli_uncomfortable)
-    - [Comfortable with CLI](#general_concepts_cli_comfortable)
-  - [Text Editors](#general_concepts_text_editors)
-    - [Vim](#general_concepts_text_editors_vim)
-    - [Sublime](#general_concepts_text_editors_sublime)
-    - [Atom](#general_concepts_text_editors_atom)
-  - [Virtual Private Networks (VPNs)](#general_concepts_shared_drives)
-  - [Shared Drives](#general_concepts_shared_drives)
-    - [SMB](#general_concepts_shared_drives_smb)
-      - [Mounting](#general_concepts_shared_drives_smb_mounting)
-
-### Guides
-
+- [Software Concepts](./guides/software_concepts)
 - [Git](./guides/git)
 - [GitHub](./guides/github)
 - [R](./guides/r)
@@ -43,7 +27,7 @@ themselves are changed).
 - [JavaScript](./guides/javascript)
 - [MATLAB](./guides/matlab)
 
-### References
+## References
 
 - [Git](./references/git.md)
 - [R](./references/r.md)
@@ -51,143 +35,85 @@ themselves are changed).
 - [JavaScript](./references/javascript.md)
 - [MATLAB](./references/matlab.md)
 
-<div id="general_concepts"></div>
+# Contributing
 
-# General Concepts
+When contributing to this repository, please first discuss the change you wish to make via issue,
+email, or any other method with the owners of this repository, the members of The Sokol-Hessner Lab,
+before making a change. 
 
-<div id="general_concepts_version_control"></div>
+Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-## Version Control
+## Code of Conduct
 
-What is version control? Why is it so important? Is it worth learning?
+### Our Pledge
 
-Many before us have answered these questions *ad absurdum*. Some of the best
-answers can be found at the following links:
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, gender identity and expression, level of experience,
+nationality, personal appearance, race, religion, or sexual identity and
+orientation.
 
-1. [Git's "About Version Control"](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-2. [Michael Ernst's "Introduction to version
-   control"](https://homes.cs.washington.edu/~mernst/advice/version-control.html#Introduction_to_version_control)
-3. [Stack Overflow Answer to "Why should I use version control?"](https://stackoverflow.com/questions/1408450/why-should-i-use-version-control/1408464#1408464)
+### Our Standards
 
-<div id="general_concepts_cli"></div>
+Examples of behavior that contributes to creating a positive environment
+include:
 
-## Command Line Interfaces (CLI)
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
 
-If you've never used the command line, that's about to change. If you've used
-it, and don't feel comfortable with it, that's about to change.
+Examples of unacceptable behavior by participants include:
 
-Comfort in using the command line is the single-most useful skill you will
-ever develop as a programmer, no matter what you plan to program.
+* The use of sexualized language or imagery and unwelcome sexual attention or
+advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
 
-What is the command line interface (CLI)? 
-: It is simply a text interface that you, the user, use to interact with a computer. In most cases, the CLI passes
-input (your text commands) to the computer's operating system, runs the
-commands, and outputs the response. 
+### Our Responsibilities
 
-<div id="general_concepts_cli_first_time_user"></div>
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
 
-### First-Time with CLI
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
 
-If you've never used the command line, let's change that: Play some
-[Terminus](http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html).
+### Scope
 
-<div id="general_concepts_cli_uncomfortable_user"></div>
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
 
-### Uncomfortable with CLI
+### Enforcement
 
-Coming soon...
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
+complaints will be reviewed and investigated and will result in a response that
+is deemed necessary and appropriate to the circumstances. The project team is
+obligated to maintain confidentiality with regard to the reporter of an incident.
+Further details of specific enforcement policies may be posted separately.
 
-<div id="general_concepts_cli_comfortable_user"></div>
+Project maintainers who do not follow or enforce the Code of Conduct in good
+faith may face temporary or permanent repercussions as determined by other
+members of the project's leadership.
 
-### Comfortable with CLI
+### Attribution
 
-Coming soon...
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
+available at [http://contributor-covenant.org/version/1/4][version]
 
-<div id="general_concepts_text_editors"></div>
-
-## Text Editors
-
-<div id="general_concepts_text_editors_vim"></div>
-
-### Vim
-
-
-#### What is `Vim`?
-
-As stated on [vim.org](https://www.vim.org/),
-
-> Vim is a highly configurable text editor for efficiently creating and changing any kind of text.
-> It is included as "vi" with most UNIX systems and with Apple OS X.
-
-It is incredibly powerful as they suggest, but does come with a difficult learning curve. For those who care about incredible
-text-editing efficiency (i.e., software developers), nothing beats a command-line text editor like `vim`.
-
-Note: There are other command-line text editors, and plenty of opinions about which
-is best. You can enjoy reading about the [pros and
-cons](https://unix.stackexchange.com/questions/986/what-are-the-pros-and-cons-of-vim-and-emacs/988#988)
-often discussed in the [Editor war](https://en.wikipedia.org/wiki/Editor_war).
-
-#### Install & Setup
-
-It's likely both `vi` and `vim` are installed on your operating system by
-default. You can check using `vi --version` or `vim --version`, respectively.
-The version should be 8.0+. The stable version as of this writing is 8.2, and
-it is highly recommended that you upgrade to at least that version. The
-insturctions for downloading and installing this text editor depends on your
-operating system:
-
-- [Vim for Windows & Linux](https://www.vim.org/download.php)
-- [Vim for macOS](https://macvim-dev.github.io/macvim/)
-
-After installing and updating to the latest stable version of `vim`, you might
-save [this documentation page](https://www.vim.org/docs.php) for reference.
-
-#### Learning `Vim`
-
-A fun way to get started with `vim` is through the [VIM Adventures](https://vim-adventures.com/). Otherwise, the best way to learn `vim` is to start using it.
-
-Some great beginners' guides are scattered around the interwebs, including
-
-- [A Beginner’s Guide to Editing Text Files With Vi](https://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/)
-
-While more advanced and complete references are
-
-- [Learn vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
-
-#### Basic `Vim`
-
-There is, admittedly, a huge learning curve for `vim` no matter how we slice it. As it is a command-line text editor, your go-to command should
-be `vim --help` any time you need immediate guidance on syntax. Once you open
-a file to edit with `vim`, you might find [this cheat
-sheet](http://www.fprintf.net/vimCheatSheet.html) helpful.
-
-<div id="general_concepts_text_editors_sublime"></div>
-
-### Sublime
-
-[Sublime](https://www.sublimetext.com/) is a fantastic text editor that uses plugins to provide syntax highlighting, file-type recognition, and
-various other useful features for developers.
-
-<div id="general_concepts_text_editors_atom"></div>
-
-### Atom
-
-[Atom](https://atom.io/) is another great text editor that is super
-customizable and is maintained by GitHub itself.
-
-<div id="general_concepts_vpn"></div>
-
-## Virtual Private Networks (VPNs)
-
-<div id="general_concepts_shared_drives"></div>
-
-## Shared Drives
-
-<div id="general_concepts_shared_drives_smb"></div>
-
-### SMB
-
-<div id="general_concepts_shared_drives_smb_mounting"></div>
-
-#### Mounting
-
+[homepage]: http://contributor-covenant.org
+[version]: http://contributor-covenant.org/version/1/4/
