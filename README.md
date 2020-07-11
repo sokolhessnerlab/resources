@@ -6,10 +6,8 @@ tidbits of information. While many of the resources herein were written with
 our lab's needs in mind, we encourage other labs and collaborators to take
 advantage our learnings.
 
-The following Table of Contents (ToC) should be your primary method of navigating
-resources. Only after a resource is developed to a sufficient level of
-completeness will it be linked to by the ToC, so if you're looking for
-ready-to-use information, the ToC is your best bet! 
+The following Guides & References links should be your primary method of navigating
+resources.
 
 Please note: This is a living, breathing repo that will be updated from time to
 time. We will do our best to maintain a stable version of all resources that
