@@ -35,13 +35,13 @@ themselves are changed).
 
 ### Guides
 
-- [Git](./guides/git/general.md)
-- [GitHub](./guides/github/general.md)
-- [R](./guides/r/general.md)
+- [Git](./guides/git)
+- [GitHub](./guides/github)
+- [R](./guides/r)
   - [Plots](./guides/r/plots.md)
-- [Python](./guides/python/general.md)
-- [JavaScript](./guides/javascript/general.md)
-- [MATLAB](./guides/matlab/general.md)
+- [Python](./guides/python)
+- [JavaScript](./guides/javascript)
+- [MATLAB](./guides/matlab)
 
 ### References
 
