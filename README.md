@@ -35,26 +35,13 @@ themselves are changed).
 
 ### Guides
 
-- [Git](./guides/git.md)
-  - [What is Git?](./guides/git.md#what_is_git)
-  - [Install](./guides/git.md#install)
-  - [Setup](./guides/git.md#setup)
-  - [Use](./guides/git.md/#use)
-- [GitHub](./guides/github.md)
-  - [What is GitHub?](./guides/github.md/#what_is_github)
-  - [Sign up](./guides/github.md/#sign_up)
-  - [Sokol-Hessner Lab on GitHub](./guides/github.md/#sokolhessnerlab)
-    - [Invitations](./guides/github.md/#invitations)
-  - [Clone this repository](./guides/github.md/#clone_resources)
-  - [Tutorial: Emoji](./guides/github.md/#github_tutorial_emoji)
-- [R](./guides/r.md)
-  - [What is R?](./guides/r.md#what_is_r)
-  - [Install](./guides/r.md#install)
-  - [Setup](./guides/r.md#setup)
-  - [`shlab` Packages](./guides/r.md#shlab-packages)
-- [Python](./guides/python.md)
-- [JavaScript](./guides/javascript.md)
-- [MATLAB](./guides/matlab.md)
+- [Git](./guides/git/general.md)
+- [GitHub](./guides/github/general.md)
+- [R](./guides/r/general.md)
+  - [Plots](./guides/r/plots.md)
+- [Python](./guides/python/general.md)
+- [JavaScript](./guides/javascript/general.md)
+- [MATLAB](./guides/matlab/general.md)
 
 ### References
 
