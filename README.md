@@ -21,17 +21,24 @@ themselves are changed).
 - [GitHub](./guides/github)
 - [R](./guides/r)
   - [Plots](./guides/r/plots.md)
+  - [Documentation](./guides/r/documentation.md)
 - [Python](./guides/python)
 - [JavaScript](./guides/javascript)
 - [MATLAB](./guides/matlab)
 
 ## References
 
-- [Git](./references/git.md)
-- [R](./references/r.md)
-- [Python](./references/python.md)
-- [JavaScript](./references/javascript.md)
-- [MATLAB](./references/matlab.md)
+The following are quick links to collections of helpful references relating to each 
+of the above guides. (NOTE: Each of these collections can *also* be navigated to
+within its related guide.)
+
+- [Software Concepts](./guides/software_concepts/references.md)
+- [Git](./guides/git/references.md)
+- [GitHub](./guides/github/references.md)
+- [R](./guides/r/references.md)
+- [Python](./guides/python/references.md)
+- [JavaScript](./guides/javascript/references.md)
+- [MATLAB](./guides/matlab/references.md)
 
 # Contributing
 

@@ -135,15 +135,14 @@ A reliable commit message format can be most effectively adhered to by configuri
 a template for your local machine. Either of the two methods below can be used to add
 the template to your computer.
 
-
 Going forward, your commits should follow this format, and Git will expect the
 template to be filled each time you run `git commit`.
 
 ##### 1. Manually
 
-Copy the text in the code block directly below into your `~/.gitmessage` file. You can do this by running `vim ~/.gitmessage` or
-your text editor of choice from the command line. After you've pasted the text,
-save and close the file.
+Copy the text in the code block directly below into your `~/.gitmessage` file. You can do 
+this by running `vim ~/.gitmessage` or your text editor of choice from 
+the command line. After you've pasted the text, save and close the file.
 
 ```
 ###############################################################################
@@ -170,7 +169,16 @@ Notes:
 
 ##### 2. Semi-automatically
 
-Navigate to the root of this project directory on your local machine. Then run `cp templates/gitmessage ~/.gitmessage`.
+Navigate to the Git guide of this project directory on your local machine,
+where the `<parent-directory>` is the location you cloned the `resources`
+repository into.
+
+```
+cd <parent-directory>/resources/guides/git
+```
+
+Then run `cp templates/gitmessage ~/.gitmessage`. This will copy the contents
+of the template named "gitmessage" to your local Git instance.
 
 #### Configure commit message template
 
