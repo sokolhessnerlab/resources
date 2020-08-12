@@ -1,6 +1,6 @@
 # Guides & References for Sokol-Hessner Lab
 
-Welcome to the resources repository for The Sokol-Hessner Lab. The repo
+Welcome to the technical resources page for The Sokol-Hessner Lab. The repo
 contains collections of "how-to" technical guides, templates, useful references and various
 tidbits of information. While many of the resources herein were written with
 our lab's needs in mind, we encourage other labs and collaborators to take
@@ -21,10 +21,10 @@ themselves are changed).
 - [GitHub](./guides/github)
 - [R](./guides/r)
   - [Plots](./guides/r/plots.md)
-  - [Documentation](./guides/r/documentation.md)
-- [Python](./guides/python)
+  <!-- - [Documentation](./guides/r/documentation.md) -->
+<!-- - [Python](./guides/python)
 - [JavaScript](./guides/javascript)
-- [MATLAB](./guides/matlab)
+- [MATLAB](./guides/matlab) -->
 
 ## References
 
@@ -36,9 +36,9 @@ within its related guide.)
 - [Git](./guides/git/references.md)
 - [GitHub](./guides/github/references.md)
 - [R](./guides/r/references.md)
-- [Python](./guides/python/references.md)
+<!-- - [Python](./guides/python/references.md)
 - [JavaScript](./guides/javascript/references.md)
-- [MATLAB](./guides/matlab/references.md)
+- [MATLAB](./guides/matlab/references.md) -->
 
 # Contributing
 
