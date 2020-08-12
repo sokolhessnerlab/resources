@@ -21,10 +21,6 @@ themselves are changed).
 - [GitHub](./guides/github)
 - [R](./guides/r)
   - [Plots](./guides/r/plots.md)
-  <!-- - [Documentation](./guides/r/documentation.md) -->
-<!-- - [Python](./guides/python)
-- [JavaScript](./guides/javascript)
-- [MATLAB](./guides/matlab) -->
 
 ## References
 
@@ -36,9 +32,6 @@ within its related guide.)
 - [Git](./guides/git/references.md)
 - [GitHub](./guides/github/references.md)
 - [R](./guides/r/references.md)
-<!-- - [Python](./guides/python/references.md)
-- [JavaScript](./guides/javascript/references.md)
-- [MATLAB](./guides/matlab/references.md) -->
 
 # Contributing
 
