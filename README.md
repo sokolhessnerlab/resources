@@ -1,4 +1,4 @@
-# Guides & References for Sokol-Hessner Lab
+# Sokol-Hessner Lab Resources
 
 Welcome to the technical resources page for The Sokol-Hessner Lab. The repo
 contains collections of "how-to" technical guides, templates, useful references and various
