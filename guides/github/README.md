@@ -91,7 +91,7 @@ git pull --rebase origin master
 This will make sure your local version of the repository is up to date with the
 stable remote version of the repository. Since you are going to make
 a contribution for the first time, we will consider this experimental.
-Therefore, we should create a new branch for your experiment. 
+Therefore, we should create a new branch for your experiment. :squirrel: 
 
 #### Create New Local Branch
 
