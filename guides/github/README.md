@@ -34,7 +34,7 @@ You can do this via Slack (@ari) or email (aridyckovsky@gmail.com).
 
 <div id="clone_resources"></div>
 
-## Clone this repository
+## Clone this repository :dancers: 
 
 With both Git and GitHub configured, you'll want to try your hand at using
 them! The best way to get started is to jump right in. Your first step should be 
