@@ -1,25 +1,28 @@
 ## Table of Contents
 
-- [General Concepts](#software_concepts)
-  - [Version Control](#software_concepts_version_control)
-  - [Command Line Interfaces (CLIs)](#software_concepts_cli)
-    - [First-Time with CLI](#software_concepts_cli_first_time)
-    - [Uncomfortable with CLI](#software_concepts_cli_uncomfortable)
-    - [Comfortable with CLI](#software_concepts_cli_comfortable)
-  - [Text Editors](#software_concepts_text_editors)
-    - [Vim](#software_concepts_text_editors_vim)
-    - [Sublime](#software_concepts_text_editors_sublime)
-    - [Atom](#software_concepts_text_editors_atom)
-  - [Virtual Private Networks (VPNs)](#software_concepts_shared_drives)
-  - [Shared Drives](#software_concepts_shared_drives)
-    - [SMB](#software_concepts_shared_drives_smb)
-      - [Mounting](#software_concepts_shared_drives_smb_mounting)
+<!-- toc -->
 
-<div id="software_concepts"></div>
+- [General Concepts](#general-concepts)
+  * [Version Control](#version-control)
+  * [Command Line Interfaces (CLI)](#command-line-interfaces-cli)
+    + [First-Time with CLI](#first-time-with-cli)
+    + [Uncomfortable with CLI](#uncomfortable-with-cli)
+    + [Comfortable with CLI](#comfortable-with-cli)
+  * [Text Editors](#text-editors)
+    + [Vim](#vim)
+      - [What is `Vim`?](#what-is-vim)
+      - [Install & Setup](#install--setup)
+      - [Learning `Vim`](#learning-vim)
+      - [Basic `Vim`](#basic-vim)
+    + [Sublime](#sublime)
+    + [Atom](#atom)
+  * [Virtual Private Networks (VPNs)](#virtual-private-networks-vpns)
+  * [Shared Drives](#shared-drives)
+    + [MacOS Mounting Methods (Advanced)](#macos-mounting-methods-advanced)
+
+<!-- tocstop -->
 
 # General Concepts
-
-<div id="software_concepts_version_control"></div>
 
 ## Version Control
 
@@ -32,8 +35,6 @@ answers can be found at the following links:
 2. [Michael Ernst's "Introduction to version
    control"](https://homes.cs.washington.edu/~mernst/advice/version-control.html#Introduction_to_version_control)
 3. [Stack Overflow Answer to "Why should I use version control?"](https://stackoverflow.com/questions/1408450/why-should-i-use-version-control/1408464#1408464)
-
-<div id="software_concepts_cli"></div>
 
 ## Command Line Interfaces (CLI)
 
@@ -48,30 +49,20 @@ What is the command line interface (CLI)?
 input (your text commands) to the computer's operating system, runs the
 commands, and outputs the response. 
 
-<div id="software_concepts_cli_first_time_user"></div>
-
 ### First-Time with CLI
 
 If you've never used the command line, let's change that: Play some
 [Terminus](http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html).
 
-<div id="software_concepts_cli_uncomfortable_user"></div>
-
 ### Uncomfortable with CLI
 
 Coming soon...
-
-<div id="software_concepts_cli_comfortable_user"></div>
 
 ### Comfortable with CLI
 
 Coming soon...
 
-<div id="software_concepts_text_editors"></div>
-
 ## Text Editors
-
-<div id="software_concepts_text_editors_vim"></div>
 
 ### Vim
 
@@ -125,33 +116,35 @@ be `vim --help` any time you need immediate guidance on syntax. Once you open
 a file to edit with `vim`, you might find [this cheat
 sheet](http://www.fprintf.net/vimCheatSheet.html) helpful.
 
-<div id="software_concepts_text_editors_sublime"></div>
-
 ### Sublime
 
 [Sublime](https://www.sublimetext.com/) is a fantastic text editor that uses plugins to provide syntax highlighting, file-type recognition, and
 various other useful features for developers.
-
-<div id="software_concepts_text_editors_atom"></div>
 
 ### Atom
 
 [Atom](https://atom.io/) is another great text editor that is super
 customizable and is maintained by GitHub itself.
 
-<div id="software_concepts_vpn"></div>
-
 ## Virtual Private Networks (VPNs)
 
-<div id="software_concepts_shared_drives"></div>
+The Sokol-Hessner Lab uses a shared network drive (see following section) to
+store data. This drive is part of the University of Denver's secure campus network,
+and can be accessed off-campus by connecting virtually. For guidance to connect
+to the university's VPN, please visit [this page listed by IT Services](https://www.du.edu/it/services/software/vpn).
 
 ## Shared Drives
 
-<div id="software_concepts_shared_drives_smb"></div>
+The University of Denver's shared network drive ("S Drive") contains a folder
+for our lab, under `AHSS Psychology/shlab`. To learn more about accessing
+this folder, please visit [this page listed by IT Services](https://www.du.edu/it/services/software/collaboration/file-sharing).
 
-### SMB
+*IMPORTANT*: All shared drive access requires username-password verification
+_while you are connected to the campus network_, whether by on-campus WiFi or
+by off-campus VPN connection.
 
-<div id="software_concepts_shared_drives_smb_mounting"></div>
+### MacOS Mounting Methods (Advanced)
 
-#### Mounting
-
+```
+mount -t smbfs //first.last@shares/Research/AHSS%20Psychology/shlab absolute/path/to/mount/folder`
+```

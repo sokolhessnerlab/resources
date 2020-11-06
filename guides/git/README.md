@@ -1,8 +1,23 @@
-<div id="git"></div>
-
 # Git
 
-<div id="what_is_git"></div>
+<!-- toc -->
+
+- [What is Git?](#what-is-git)
+- [Install](#install)
+  * [Instructions for installing Git](#instructions-for-installing-git)
+- [Setup](#setup)
+  * [Identity](#identity)
+  * [Default text editor](#default-text-editor)
+  * [Useful aliases](#useful-aliases)
+- [Usage & Workflow](#usage--workflow)
+  * [Add/remove changes](#addremove-changes)
+  * [Commit changes](#commit-changes)
+    + [Commit messages and `~/.gitmessage`](#commit-messages-and-gitmessage)
+      - [1. Manually](#1-manually)
+      - [2. Semi-automatically](#2-semi-automatically)
+    + [Configure commit message template](#configure-commit-message-template)
+
+<!-- tocstop -->
 
 ## What is Git?
 
@@ -19,8 +34,6 @@ network..."
 - "...we know we can experiment without the danger of severely screwing things up..."
 - "Git has three main states that your files can reside in: modified, staged,
   and committed..."
-
-<div id="install"></div>
 
 ## Install
 
@@ -43,8 +56,6 @@ Please follow the instructions for each operating system:
 - [Git for Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_linux)
 - [Git for Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_windows)
 - [Git for macOS](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_macos)
-
-<div id="setup"></div>
 
 ## Setup
 
@@ -85,8 +96,6 @@ The following [aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases#_g
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'
 ```
-
-<div id="use"></div>
 
 ## Usage & Workflow
 
